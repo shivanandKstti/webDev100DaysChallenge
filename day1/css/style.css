@@ -1,11 +1,36 @@
-h1 {
-    font-family: sans-serif;
+body {
     text-align: center;
+    background-color: rgb(233, 262, 262);
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+}
+
+h1 {
+    font-family: 'Oswald', sans-serif;
     color: red;
 }
 
 p {
-    text-align: center;
-    font-family: sans-serif;
-    color: darkgray;
+    font-family: 'Fira Sans', sans-serif;
+    color: rgb(5, 2, 2);
+}
+
+a {
+    color: rgb(236, 75, 75);
+    text-decoration: none;
+}
+
+#todays-challenge {
+    color: rgb(161, 39, 39);
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
 }
