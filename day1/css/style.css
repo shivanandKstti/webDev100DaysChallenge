@@ -1,6 +1,5 @@
 body {
-    text-align: center;
-    background-color: rgb(233, 262, 262);
+    margin: 50px;
 }
 
 img {
@@ -13,24 +12,8 @@ img {
     -o-border-radius: 100px;
 }
 
-h1 {
-    font-family: 'Oswald', sans-serif;
-    color: red;
-}
-
-p {
-    font-family: 'Fira Sans', sans-serif;
-    color: rgb(5, 2, 2);
-}
-
-a {
-    color: rgb(236, 75, 75);
-    text-decoration: none;
-}
-
 #todays-challenge {
     color: rgb(161, 39, 39);
     font-weight: bold;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 30px;
 }
